@@ -116,7 +116,7 @@ const E3TimelineGraphAdvanced = () => {
       Math.max(...timelineData.content.map((item) => new Date(item.date).getTime()))
     );
 
-    
+    // Add extra months before and after the start and end dates
     const extraMonths = 1; // You can adjust this value as needed
     const startDateRaw = new Date(minDate);
     startDateRaw.setUTCMonth(startDateRaw.getUTCMonth() - extraMonths);
