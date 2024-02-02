@@ -134,6 +134,7 @@ const E3TimelineGraphAdvanced = () => {
     svgPaintedOnceRef.current = true;
 
     // console.log('painting');
+    //
 
     // Clear the SVG
     svg.selectAll('*').remove();
